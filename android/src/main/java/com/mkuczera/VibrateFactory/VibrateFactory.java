@@ -32,10 +32,10 @@ public class VibrateFactory {
         vibrateMap.put("textHandleMove", new VibrateWithHapticConstant(HapticFeedbackConstants.TEXT_HANDLE_MOVE));
         vibrateMap.put("virtualKey", new VibrateWithHapticConstant(HapticFeedbackConstants.VIRTUAL_KEY));
         vibrateMap.put("virtualKeyRelease", new VibrateWithHapticConstant(HapticFeedbackConstants.VIRTUAL_KEY_RELEASE));
-        vibrateMap.put("effectClick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_CLICK));
-        vibrateMap.put("effectDoubleClick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_DOUBLE_CLICK));
-        vibrateMap.put("effectHeavyClick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_HEAVY_CLICK));
-        vibrateMap.put("effectTick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_TICK));
+        // vibrateMap.put("effectClick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_CLICK));
+        // vibrateMap.put("effectDoubleClick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_DOUBLE_CLICK));
+        // vibrateMap.put("effectHeavyClick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_HEAVY_CLICK));
+        // vibrateMap.put("effectTick", new VibrateWithCreatePredefined(VibrationEffect.EFFECT_TICK));
     }
 
     public static Vibrate getVibration(String type) {
