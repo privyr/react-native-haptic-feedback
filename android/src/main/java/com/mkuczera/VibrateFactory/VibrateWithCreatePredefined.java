@@ -17,6 +17,6 @@ public class VibrateWithCreatePredefined implements Vibrate {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
             return;
         }
-        v.vibrate(VibrationEffect.createPredefined(this.hapticConstant));
+        // v.vibrate(VibrationEffect.createPredefined(this.hapticConstant));
     }
 }
